@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/output.css" />
+    <link rel="icon" href="/img/evfav.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Evidense</title>
+  </head>
+  <body>
+    <!-- image preview -->
+    <div
+      id="previewContainer"
+      class="fixed w-full h-full bg-[#00000070] z-[99999] flex items-center justify-center"
+    >
+      <img id="previewImage" class="h-[350px] lg:h-[400px]" src="" alt="" />
+    </div>
+    <!-- end image preview -->
+    <!-- header -->
+    <div
+      class="flex justify-between px-[5%] py-[10px] md:py-[0px] bg-white sticky top-0 z-[20]"
+    >
+      <div>
+        <img src="/img/newEV.png" alt="" class="h-[50px] md:h-[80px]" />
+      </div>
+      <div class="pt-[10px] md:pt-[20px]">
+        <ul class="md:hidden flex gap-5 md:gap-[40px] text-2xl md:text-lg font-[500]">
+          <li>
+            <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-instagram-alt"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-tiktok"></i></a>
+          </li>
+        </ul>
+        <ul class="hidden md:flex gap-5 md:gap-[40px] text-xl md:text-lg font-[500]">
+          <li><a href="/index.html" class="hover:text-[#7C2BF7]">Home</a></li>
+          <li><a href="#gallery" class="hover:text-[#7C2BF7]">Gallery</a></li>
+          <li><a href="#contact" class="hover:text-[#7C2BF7]">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- header done -->
+    <!-- banner -->
+    <div
+      style="
+        background-image: url(./img/bg9.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      "
+      class="h-[50vh] md:h-[100vh] text-center flex flex-col justify-center text-white"
+    >
+      <p class="uppercase text-xl md:text-3xl">for the poor people</p>
+      <h2
+        class="uppercase text-xl md:text-4xl lg:text-6xl bg-[#FF6000] p-[15px] rounded-full mx-[15%] my-[20px] opacity-80 font-bold"
+      >
+        raise your helping hand
+      </h2>
+      <p class="text-xl mx-[10%] md:mx-[15%] lg:mx-[25%]">
+        Every day we bring hope to millions of people as a sign of God's
+        unconditional love
+      </p>
+    </div>
+    <!-- banner done -->
+    <!-- counter -->
+    <div
+      class="bg-[#FF6000] px-[5%] py-[5%] lg:py-[3%] text-white flex flex-col items-center lg:justify-start lg:flex-row lg:items-center gap-[20px]"
+    >
+      <div class="w-full md:w-[80%]">
+        <p class="text-xl md:text-md text-center md:text-start md:text-2xl">
+          The number of foods distributed so far today is:
+        </p>
+        <div class="border-4 bg-white p-[5px] md:p-[15px] mx-[20%] md:mx-[0%]">
+          <p class="text-4xl md:text-9xl text-center text-[#FF6000]">250</p>
+        </div>
+      </div>
+      <div
+        class="flex gap-[20px] lg:gap-[50px] h-[20vh] text-xl justify-center items-center text-center bg-white text-[#FF6000] w-full md:w-[70%] p-[20px] rounded-full"
+      >
+        <div>
+          <p>Last 1 day</p>
+          <p class="text-black">100</p>
+        </div>
+        <div>
+          <p>Last 7 days</p>
+          <p class="text-black">750</p>
+        </div>
+        <div>
+          <p>Last 30 days</p>
+          <p class="text-black">1200</p>
+        </div>
+      </div>
+    </div>
+    <!-- counter done -->
+    <!-- main -->
+    <div class="flex flex-col lg:flex-row m-[5%] justify-between">
+      <div class="w-full mb-10 lg:mb-0 lg:w-[50%]">
+        <h1
+          class="text-2xl font-bold md:font-normal md:text-4xl mb-5 text-center lg:text-start"
+        >
+          Welcome to <span class="text-[#FF6000]">Evidense</span> Please Raise
+          your Helping Hand
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
+          dignissimos tenetur? Porro nesciunt exercitationem sed delectus
+          expedita repellat, ipsa dolorum quam impedit praesentium consequuntur
+          ea nam earum soluta nisi? Quo, illo dolores modi quia quam expedita
+          impedit? Harum enim sapiente odio at aspernatur! Sed quibusdam earum
+          eius assumenda laboriosam hic.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img src="/img/7.jpg" alt="" />
+      </div>
+    </div>
+    <div class="bg-[#f5f5f5] p-[5%]" id="gallery">
+      <h1 class="uppercase text-center text-4xl font-bold mb-10">
+        Our <span class="text-[#FF6000]">Gallery</span>
+      </h1>
+      <div class="w-full flex overflow-auto lg:grid lg:grid-cols-4 gap-3">
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg1.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg1.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg2.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg2.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg3.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg3.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg4.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg4.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg5.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg5.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg6.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg6.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg7.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg7.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg8.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg8.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg9.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg9.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg10.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg10.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg11.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg11.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+        <div class="card-image">
+          <div
+            class="w-full h-full absolute z-[2] flex items-center justify-center"
+          >
+            <button class="previewBtn" data-src="/img/gallery-lg12.jpg">
+              <i class="bx bx-image"></i>
+            </button>
+          </div>
+          <img
+            src="/img/gallery-lg12.jpg"
+            class="w-full h-full object-cover transition-all duration-200"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- main done -->
+    <!-- contact -->
+    <div class="p-[5%]" id="contact">
+      <h1 class="uppercase text-center text-4xl font-bold mb-10">Contact Us</h1>
+      <form action="" class="w-full lg:w-[50%] mx-auto">
+        <div class="flex flex-col mb-3">
+          <label for="">Full Name</label>
+          <input type="text" class="outline outline-1 mt-2 h-[5vh] p-[10px]" />
+        </div>
+        <div class="flex flex-col mb-3">
+          <label for="">Email</label>
+          <input type="text" class="outline outline-1 mt-2 h-[5vh] p-[10px]" />
+        </div>
+        <div class="flex flex-col mb-3">
+          <label for="">Message</label>
+          <textarea
+            name=""
+            id=""
+            rows="5"
+            class="outline outline-1 mt-2"
+          ></textarea>
+        </div>
+        <div>
+          <button class="bg-[#FF6000] text-white p-[10px] rounded-lg">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- contact done -->
+
+    <!-- footer -->
+    <div class="bg-black text-center text-white py-[10px]">
+      <p>
+        &COPY;Copyright Evidense 2023 | All rights reserved | Developed by
+        Highcrown Technologies
+      </p>
+    </div>
+    <!-- footer done -->
+    <script src="./main.js"></script>
+  </body>
+</html>
