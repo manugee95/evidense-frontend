@@ -18,7 +18,7 @@ function Home() {
     <div className="flex items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500 text-white">
       {!showVerse ? (
         <div className="animate-spin text-center">
-          <img src="newEV2.png" alt="Logo" className="w-22 md:w-50 h-15 md:h-32" />
+          <img src="Ev_Icon.png" alt="Logo" className="w-22 md:w-50 h-15 md:h-32" />
         </div>
       ) : (
         <div className="text-center">
