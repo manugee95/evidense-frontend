@@ -27,16 +27,14 @@ function Home() {
               showVerse ? "opacity-100" : "opacity-0"
             }`}
           >
-            James 1:17
+            James 2:17
           </h1>
           <p
             className={`mt-4 text-lg transition-opacity duration-1000 ${
               showVerse ? "opacity-100" : "opacity-0"
             }`}
           >
-            Every good and perfect gift is from above, coming down from the
-            Father of the heavenly lights, who does not change like shifting
-            shadows.
+            In the same way, faith by itself, if it is not accompanied by action, is dead.
           </p>
           {showButton && (
             <Link to="/gallery">
